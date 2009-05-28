@@ -15,6 +15,7 @@
 		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
 		37EB125D0FCB3D990014A9CC /* Controller.m in Sources */ = {isa = PBXBuildFile; fileRef = 37EB125C0FCB3D990014A9CC /* Controller.m */; };
 		37EB12680FCB3EEE0014A9CC /* PolygonShape.m in Sources */ = {isa = PBXBuildFile; fileRef = 37EB12670FCB3EEE0014A9CC /* PolygonShape.m */; };
+		37FF03F80FCF35AA003500B0 /* PolyView.m in Sources */ = {isa = PBXBuildFile; fileRef = 37FF03F70FCF35AA003500B0 /* PolyView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,8 @@
 		37EB125C0FCB3D990014A9CC /* Controller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Controller.m; sourceTree = "<group>"; };
 		37EB12660FCB3EEE0014A9CC /* PolygonShape.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PolygonShape.h; sourceTree = "<group>"; };
 		37EB12670FCB3EEE0014A9CC /* PolygonShape.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PolygonShape.m; sourceTree = "<group>"; };
+		37FF03F60FCF35AA003500B0 /* PolyView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PolyView.h; sourceTree = "<group>"; };
+		37FF03F70FCF35AA003500B0 /* PolyView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PolyView.m; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -77,6 +80,8 @@
 				37EB125C0FCB3D990014A9CC /* Controller.m */,
 				37EB12660FCB3EEE0014A9CC /* PolygonShape.h */,
 				37EB12670FCB3EEE0014A9CC /* PolygonShape.m */,
+				37FF03F60FCF35AA003500B0 /* PolyView.h */,
+				37FF03F70FCF35AA003500B0 /* PolyView.m */,
 			);
 			name = CustomTemplate;
 			sourceTree = "<group>";
@@ -166,6 +171,7 @@
 				1D3623260D0F684500981E51 /* HelloPolyAppDelegate.m in Sources */,
 				37EB125D0FCB3D990014A9CC /* Controller.m in Sources */,
 				37EB12680FCB3EEE0014A9CC /* PolygonShape.m in Sources */,
+				37FF03F80FCF35AA003500B0 /* PolyView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

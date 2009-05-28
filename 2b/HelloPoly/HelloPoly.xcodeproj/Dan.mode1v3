@@ -303,12 +303,14 @@
 					<key>Dock</key>
 					<array>
 						<dict>
+							<key>BecomeActive</key>
+							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
 								<string>1CE0B20306471E060097A5F4</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>Controller.h</string>
+								<string>Controller.m</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -316,18 +318,22 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>1CE0B20406471E060097A5F4</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>Controller.h</string>
+										<string>Controller.m</string>
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>375154360FCDFA20004D6414</string>
+										<string>37FF05050FCF4199003500B0</string>
 										<key>history</key>
 										<array>
-											<string>37EB12D70FCB468A0014A9CC</string>
-											<string>37EB12F40FCB478F0014A9CC</string>
-											<string>375154320FCDFA20004D6414</string>
-											<string>375154330FCDFA20004D6414</string>
-											<string>37EB13060FCB48D30014A9CC</string>
+											<string>37FF040D0FCF3716003500B0</string>
+											<string>37FF040E0FCF3716003500B0</string>
+											<string>37FF040F0FCF3716003500B0</string>
+											<string>37FF04240FCF373C003500B0</string>
+											<string>37FF04F30FCF413A003500B0</string>
+											<string>37FF04F40FCF413A003500B0</string>
+											<string>37FF04F50FCF413A003500B0</string>
+											<string>37FF05010FCF4169003500B0</string>
+											<string>37FF05020FCF4169003500B0</string>
 										</array>
 										<key>prevStack</key>
 										<array>
@@ -335,8 +341,60 @@
 											<string>37EB12730FCB40D40014A9CC</string>
 											<string>37EB12750FCB40D40014A9CC</string>
 											<string>37EB129B0FCB41170014A9CC</string>
-											<string>375154340FCDFA20004D6414</string>
 											<string>375154350FCDFA20004D6414</string>
+											<string>37FF03E20FCF2A88003500B0</string>
+											<string>37FF03E30FCF2A88003500B0</string>
+											<string>37FF03E40FCF2A88003500B0</string>
+											<string>37FF03FC0FCF3686003500B0</string>
+											<string>37FF03FD0FCF3686003500B0</string>
+											<string>37FF04120FCF3716003500B0</string>
+											<string>37FF04130FCF3716003500B0</string>
+											<string>37FF04140FCF3716003500B0</string>
+											<string>37FF04150FCF3716003500B0</string>
+											<string>37FF04160FCF3716003500B0</string>
+											<string>37FF04170FCF3716003500B0</string>
+											<string>37FF04180FCF3716003500B0</string>
+											<string>37FF04190FCF3716003500B0</string>
+											<string>37FF041A0FCF3716003500B0</string>
+											<string>37FF041B0FCF3716003500B0</string>
+											<string>37FF041C0FCF3716003500B0</string>
+											<string>37FF041D0FCF3716003500B0</string>
+											<string>37FF041E0FCF3716003500B0</string>
+											<string>37FF041F0FCF3716003500B0</string>
+											<string>37FF04200FCF3716003500B0</string>
+											<string>37FF04210FCF3716003500B0</string>
+											<string>37FF04260FCF373C003500B0</string>
+											<string>37FF04350FCF3A34003500B0</string>
+											<string>37FF04360FCF3A34003500B0</string>
+											<string>37FF04370FCF3A34003500B0</string>
+											<string>37FF04460FCF3AC8003500B0</string>
+											<string>37FF04470FCF3AC8003500B0</string>
+											<string>37FF04480FCF3AC8003500B0</string>
+											<string>37FF04C10FCF3D04003500B0</string>
+											<string>37FF04C20FCF3D04003500B0</string>
+											<string>37FF04C30FCF3D04003500B0</string>
+											<string>37FF04C40FCF3D04003500B0</string>
+											<string>37FF04C50FCF3D04003500B0</string>
+											<string>37FF04C60FCF3D04003500B0</string>
+											<string>37FF04C70FCF3D04003500B0</string>
+											<string>37FF04C80FCF3D04003500B0</string>
+											<string>37FF04C90FCF3D04003500B0</string>
+											<string>37FF04CA0FCF3D04003500B0</string>
+											<string>37FF04D10FCF3E5E003500B0</string>
+											<string>37FF04E20FCF40ED003500B0</string>
+											<string>37FF04E30FCF40ED003500B0</string>
+											<string>37FF04E40FCF40ED003500B0</string>
+											<string>37FF04E50FCF40ED003500B0</string>
+											<string>37FF04E60FCF40ED003500B0</string>
+											<string>37FF04E70FCF40ED003500B0</string>
+											<string>37FF04F70FCF413A003500B0</string>
+											<string>37FF04F80FCF413A003500B0</string>
+											<string>37FF04F90FCF413A003500B0</string>
+											<string>37FF04FA0FCF413A003500B0</string>
+											<string>37FF04FB0FCF413A003500B0</string>
+											<string>37FF04FC0FCF413A003500B0</string>
+											<string>37FF04FD0FCF413A003500B0</string>
+											<string>37FF05030FCF4169003500B0</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -358,8 +416,6 @@
 							<string>604pt</string>
 						</dict>
 						<dict>
-							<key>BecomeActive</key>
-							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
@@ -396,9 +452,9 @@
 			</array>
 			<key>TableOfContents</key>
 			<array>
-				<string>3751542A0FCDF1E3004D6414</string>
+				<string>37FF03E60FCF2A88003500B0</string>
 				<string>1CE0B1FE06471DED0097A5F4</string>
-				<string>3751542B0FCDF1E3004D6414</string>
+				<string>37FF03E70FCF2A88003500B0</string>
 				<string>1CE0B20306471E060097A5F4</string>
 				<string>1CE0B20506471E060097A5F4</string>
 			</array>
@@ -532,6 +588,11 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
+		<string>37FF044A0FCF3AC8003500B0</string>
+		<string>37FF044B0FCF3AC8003500B0</string>
+		<string>1CD10A99069EF8BA00B06720</string>
+		<string>370B36270FC5F8290027ADCB</string>
+		<string>1C78EAAD065D492600B07095</string>
 		<string>/Users/Dan/Documents/Projects/iphone/stanford/2b/HelloPoly/HelloPoly.xcodeproj</string>
 	</array>
 	<key>WindowString</key>
@@ -551,30 +612,30 @@
 					<key>Dock</key>
 					<array>
 						<dict>
+							<key>BecomeActive</key>
+							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
 								<string>1CD0528F0623707200166675</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>Controller.m</string>
+								<string>PolyView.m</string>
 								<key>StatusBarVisibility</key>
 								<true/>
 							</dict>
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 0}, {500, 218}}</string>
+								<string>{{0, 0}, {1436, 540}}</string>
 								<key>RubberWindowFrame</key>
-								<string>25 355 500 500 0 0 1440 878 </string>
+								<string>4 56 1436 822 0 0 1440 878 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXNavigatorGroup</string>
 							<key>Proportion</key>
-							<string>218pt</string>
+							<string>540pt</string>
 						</dict>
 						<dict>
-							<key>BecomeActive</key>
-							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
@@ -589,9 +650,9 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 223}, {500, 236}}</string>
+								<string>{{0, 545}, {1436, 236}}</string>
 								<key>RubberWindowFrame</key>
-								<string>25 355 500 500 0 0 1440 878 </string>
+								<string>4 56 1436 822 0 0 1440 878 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXBuildResultsModule</string>
@@ -600,7 +661,7 @@
 						</dict>
 					</array>
 					<key>Proportion</key>
-					<string>459pt</string>
+					<string>781pt</string>
 				</dict>
 			</array>
 			<key>Name</key>
@@ -614,14 +675,14 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>370B36270FC5F8290027ADCB</string>
-				<string>37EB127B0FCB40D40014A9CC</string>
+				<string>37FF03FF0FCF3686003500B0</string>
 				<string>1CD0528F0623707200166675</string>
 				<string>XCMainBuildResultsModuleGUID</string>
 			</array>
 			<key>ToolbarConfiguration</key>
 			<string>xcode.toolbar.config.buildV3</string>
 			<key>WindowString</key>
-			<string>25 355 500 500 0 0 1440 878 </string>
+			<string>4 56 1436 822 0 0 1440 878 </string>
 			<key>WindowToolGUID</key>
 			<string>370B36270FC5F8290027ADCB</string>
 			<key>WindowToolIsVisible</key>
@@ -656,8 +717,8 @@
 										<string>yes</string>
 										<key>sizes</key>
 										<array>
-											<string>{{0, 0}, {316, 194}}</string>
-											<string>{{316, 0}, {378, 194}}</string>
+											<string>{{0, 0}, {316, 198}}</string>
+											<string>{{316, 0}, {378, 198}}</string>
 										</array>
 									</dict>
 									<key>VerticalSplitView</key>
@@ -672,8 +733,8 @@
 										<string>yes</string>
 										<key>sizes</key>
 										<array>
-											<string>{{0, 0}, {694, 194}}</string>
-											<string>{{0, 194}, {694, 187}}</string>
+											<string>{{0, 0}, {694, 198}}</string>
+											<string>{{0, 198}, {694, 183}}</string>
 										</array>
 									</dict>
 								</dict>
@@ -706,7 +767,7 @@
 										<real>148</real>
 									</array>
 									<key>Frame</key>
-									<string>{{316, 0}, {378, 194}}</string>
+									<string>{{316, 0}, {378, 198}}</string>
 									<key>RubberWindowFrame</key>
 									<string>25 433 694 422 0 0 1440 878 </string>
 								</dict>
@@ -734,13 +795,13 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>1CD10A99069EF8BA00B06720</string>
-				<string>37EB127C0FCB40D40014A9CC</string>
+				<string>37FF04000FCF3686003500B0</string>
 				<string>1C162984064C10D400B95A72</string>
-				<string>37EB127D0FCB40D40014A9CC</string>
-				<string>37EB127E0FCB40D40014A9CC</string>
-				<string>37EB127F0FCB40D40014A9CC</string>
-				<string>37EB12800FCB40D40014A9CC</string>
-				<string>37EB12810FCB40D40014A9CC</string>
+				<string>37FF04010FCF3686003500B0</string>
+				<string>37FF04020FCF3686003500B0</string>
+				<string>37FF04030FCF3686003500B0</string>
+				<string>37FF04040FCF3686003500B0</string>
+				<string>37FF04050FCF3686003500B0</string>
 			</array>
 			<key>ToolbarConfiguration</key>
 			<string>xcode.toolbar.config.debugV3</string>
@@ -879,18 +940,18 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 0}, {650, 209}}</string>
+								<string>{{0, 0}, {899, 570}}</string>
 								<key>RubberWindowFrame</key>
-								<string>25 605 650 250 0 0 1440 878 </string>
+								<string>25 244 899 611 0 0 1440 878 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXDebugCLIModule</string>
 							<key>Proportion</key>
-							<string>209pt</string>
+							<string>570pt</string>
 						</dict>
 					</array>
 					<key>Proportion</key>
-					<string>209pt</string>
+					<string>570pt</string>
 				</dict>
 			</array>
 			<key>Name</key>
@@ -904,13 +965,13 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>1C78EAAD065D492600B07095</string>
-				<string>37EB12820FCB40D40014A9CC</string>
+				<string>37FF04060FCF3686003500B0</string>
 				<string>1C78EAAC065D492600B07095</string>
 			</array>
 			<key>ToolbarConfiguration</key>
 			<string>xcode.toolbar.config.consoleV3</string>
 			<key>WindowString</key>
-			<string>25 605 650 250 0 0 1440 878 </string>
+			<string>25 244 899 611 0 0 1440 878 </string>
 			<key>WindowToolGUID</key>
 			<string>1C78EAAD065D492600B07095</string>
 			<key>WindowToolIsVisible</key>
