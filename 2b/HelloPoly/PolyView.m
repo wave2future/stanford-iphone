@@ -6,10 +6,7 @@
 
 
 - (void)drawRect:(CGRect)rect { 
-	CGContextRef context = UIGraphicsGetCurrentContext(); 
-	[[UIColor grayColor] set]; 
-	UIRectFill ([self bounds]); 
-	
+	CGContextRef context = UIGraphicsGetCurrentContext(); 	
 	CGRect bounds = [self bounds];
 	NSArray *points = [self pointsForPolygonInRect:bounds numberOfSides:[self numberOfSides]];
 	[points retain];
