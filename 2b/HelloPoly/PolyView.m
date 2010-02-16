@@ -2,13 +2,14 @@
 
 @implementation PolyView
 
-@synthesize numberOfSides;
+@synthesize polygon;
 
 
 - (void)drawRect:(CGRect)rect { 
 	CGContextRef context = UIGraphicsGetCurrentContext(); 	
 	CGRect bounds = [self bounds];
-	NSArray *points = [self pointsForPolygonInRect:bounds numberOfSides:[self numberOfSides]];
+	int numberOfSides = polygon.numberOfSides;
+	NSArray *points = [self pointsForPolygonInRect:bounds numberOfSides:numberOfSides];
 	[points retain];
 	
 	CGContextBeginPath (context); 

@@ -4,14 +4,12 @@
 - (IBAction)decrease {
     NSLog(@"I’m in the decrease method");
 	[polygon setNumberOfSides:polygon.numberOfSides-1];
-	[polyView setNumberOfSides:polygon.numberOfSides];
 	[self updateInterface];
 }
 
 - (IBAction)increase {
     NSLog(@"I’m in the increase method");
 	[polygon setNumberOfSides:polygon.numberOfSides+1];
-	[polyView setNumberOfSides:polygon.numberOfSides];
 	[self updateInterface];
 }
 
@@ -21,8 +19,15 @@
 	[polygon setMinimumNumberOfSides:3];
 	[polygon setMaximumNumberOfSides:12];
 	[polygon setNumberOfSides:numberOfSidesLabel.text.integerValue];
-	[polyView setNumberOfSides:numberOfSidesLabel.text.integerValue];
 	NSLog(polygon.description);
+	[polyView setPolygon:polygon];
+	
+	CGRect frame = CGRectMake(50, 70, 100, 21); 
+	UILabel *label = [[UILabel alloc] initWithFrame:frame]; 
+	[polyView addSubview:label]; 
+	[label setText:@"poop"]; 
+	
+	[label release];
 } 
 
 - (void)updateInterface { 

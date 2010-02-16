@@ -1,12 +1,12 @@
 #import <UIKit/UIKit.h>
 #import <Foundation/Foundation.h>
+#import "PolygonShape.h"
 
 @interface PolyView : UIView {
-	int numberOfSides;
-
+	IBOutlet PolygonShape *polygon;
 }
 
-@property int numberOfSides;
+@property PolygonShape *polygon;
 @property (readonly) NSArray *pointsForPolygonInRect;
 
 

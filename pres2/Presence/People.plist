@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>name</key>
+		<string>Paulenne</string>
+		<key>image</key>
+		<string>checkmarkControllerIcon.png</string>
+		<key>status</key>
+		<string>Grading stuff init</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Troy</string>
+		<key>image</key>
+		<string>checkmarkControllerIcon.png</string>
+		<key>status</key>
+		<string>RTRT OMG #social #media is aweeesome @ev</string>
+	</dict>
+</array>
+</plist>
