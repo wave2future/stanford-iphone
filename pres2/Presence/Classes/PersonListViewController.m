@@ -112,31 +112,11 @@ didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
 	
     NSInteger row = [indexPath row];
 	Person *person = [self.list objectAtIndex:row];
-	
-	if( person.tweets.count > 0) {
-		TweetListViewController *tweetController = [[TweetListViewController alloc] initWithStyle:UITableViewStylePlain];
-		
-		tweetController.person = person;
-		
-		[self.navigationController pushViewController:tweetController animated:YES];
-	}
 
-	/*
-	if (childController == nil)
-        childController = [[PersonDetailViewController alloc] 
-                           initWithNibName:@"PersonDetail" bundle:nil];
-    
-    NSInteger row = [indexPath row];
-	Person *person = [self.list objectAtIndex:row];
+	TweetListViewController *tweetController = [[TweetListViewController alloc] initWithStyle:UITableViewStylePlain];
 	
-    childController.title = person.display;
-    
-    childController.person = person;
+	tweetController.person = person;
 	
-	
-    [self.navigationController pushViewController:childController
-     animated:YES];
-	 */
-}
+	[self.navigationController pushViewController:tweetController animated:YES];}
 
 @end

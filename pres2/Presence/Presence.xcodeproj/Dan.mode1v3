@@ -317,7 +317,7 @@
 								<key>PBXProjectModuleGUID</key>
 								<string>1CE0B20306471E060097A5F4</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>TweetListViewController.m</string>
+								<string>Person.m</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -325,11 +325,11 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>1CE0B20406471E060097A5F4</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>TweetListViewController.m</string>
+										<string>Person.m</string>
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>37C10883112B59B70021F64A</string>
+										<string>37C108A9112B653A0021F64A</string>
 										<key>history</key>
 										<array>
 											<string>370DFF0810C42845003D6682</string>
@@ -340,12 +340,12 @@
 											<string>37B41071111AE22E004943B9</string>
 											<string>37B41073111AE22E004943B9</string>
 											<string>37B410A8111AF4FE004943B9</string>
-											<string>37B410A9111AF4FE004943B9</string>
 											<string>378072501125CEC8000BF687</string>
 											<string>378072701125D206000BF687</string>
 											<string>378072951125D3A9000BF687</string>
-											<string>378072A91125D431000BF687</string>
-											<string>378072AE1125D488000BF687</string>
+											<string>37C10893112B629B0021F64A</string>
+											<string>37C108A6112B653A0021F64A</string>
+											<string>37C108A7112B653A0021F64A</string>
 										</array>
 										<key>prevStack</key>
 										<array>
@@ -363,6 +363,9 @@
 											<string>379E8638111994AE00EC9EDD</string>
 											<string>378072561125CEC8000BF687</string>
 											<string>378072571125CEC8000BF687</string>
+											<string>37C10895112B629B0021F64A</string>
+											<string>37C10896112B629B0021F64A</string>
+											<string>37C108A8112B653A0021F64A</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -556,6 +559,11 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
+		<string>37C10898112B629B0021F64A</string>
+		<string>37C10899112B629B0021F64A</string>
+		<string>1C78EAAD065D492600B07095</string>
+		<string>1CD10A99069EF8BA00B06720</string>
+		<string>37CB0A9C10BDA24100B6246B</string>
 		<string>/Users/Dan/Documents/Projects/iphone/stanford/pres2/Presence/Presence.xcodeproj</string>
 	</array>
 	<key>WindowString</key>
@@ -580,7 +588,7 @@
 								<key>PBXProjectModuleGUID</key>
 								<string>1CD0528F0623707200166675</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>TweetListViewController.h</string>
+								<string></string>
 								<key>StatusBarVisibility</key>
 								<true/>
 							</dict>
@@ -597,8 +605,6 @@
 							<string>540pt</string>
 						</dict>
 						<dict>
-							<key>BecomeActive</key>
-							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
@@ -638,7 +644,7 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>37CB0A9C10BDA24100B6246B</string>
-				<string>378072431125CEA6000BF687</string>
+				<string>37C10889112B5BF70021F64A</string>
 				<string>1CD0528F0623707200166675</string>
 				<string>XCMainBuildResultsModuleGUID</string>
 			</array>
@@ -758,13 +764,13 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>1CD10A99069EF8BA00B06720</string>
-				<string>378072441125CEA6000BF687</string>
+				<string>37C1088A112B5BF70021F64A</string>
 				<string>1C162984064C10D400B95A72</string>
-				<string>378072451125CEA6000BF687</string>
-				<string>378072461125CEA6000BF687</string>
-				<string>378072471125CEA6000BF687</string>
-				<string>378072481125CEA6000BF687</string>
-				<string>378072491125CEA6000BF687</string>
+				<string>37C1088B112B5BF70021F64A</string>
+				<string>37C1088C112B5BF70021F64A</string>
+				<string>37C1088D112B5BF70021F64A</string>
+				<string>37C1088E112B5BF70021F64A</string>
+				<string>37C1088F112B5BF70021F64A</string>
 			</array>
 			<key>ToolbarConfiguration</key>
 			<string>xcode.toolbar.config.debugV3</string>
@@ -926,7 +932,7 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>1C78EAAD065D492600B07095</string>
-				<string>3780724A1125CEA6000BF687</string>
+				<string>37C10890112B5BF70021F64A</string>
 				<string>1C78EAAC065D492600B07095</string>
 			</array>
 			<key>ToolbarConfiguration</key>

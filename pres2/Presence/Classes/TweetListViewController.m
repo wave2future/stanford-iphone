@@ -83,7 +83,11 @@
 
 // Customize the number of rows in the table view.
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-    return person.tweets.count;
+    if(person.tweets.count > 0) {
+		return person.tweets.count;
+	} else {
+		return 1;
+	}
 }
 
 
@@ -96,13 +100,17 @@
     if (cell == nil) {
         cell = [[[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:CellIdentifier] autorelease];
     }
-    
-	NSInteger row = [indexPath row];
 	
-    cell.textLabel.text = [[person.tweets objectAtIndex:row] objectForKey:@"text"];
+	if(person.tweets.count > 0) {
+		NSInteger row = [indexPath row];
+		
+		cell.textLabel.text = [[person.tweets objectAtIndex:row] objectForKey:@"text"];
+	} else {
+		
+		cell.textLabel.text = @"No Tweets :(";
+	}
 	
-	
-    return cell;
+	return cell;
 }
 
 
